@@ -1,0 +1,57 @@
+#fecha {
+  background-color: #17391e;
+}
+.save-the-date {
+  color: #d2ac47;
+  text-align: center;
+  padding: 2rem;
+}
+
+.save-the-date h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+.save-the-date h2 {
+  font-family: "Italiana", serif;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+.save-the-date p {
+    font-family: "Italiana", serif;
+    font-size: 1.5rem;
+    color: #f1f2e9;
+    margin-bottom: 2rem;
+}
+
+.content-area {
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+.save-the-date h1 {
+    font-size: 3rem;
+  }
+  
+  .save-the-date h2 {
+    font-size: 1.5rem;
+  }
+
+  .save-the-date p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+.save-the-date h1 {
+    font-size: 2.5rem;
+  }
+  
+  .save-the-date h2 {
+    font-size: 1.2rem;
+  }
+}

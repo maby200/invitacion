@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  scroll-margin-top: 80px; /* fixd navbar offst */
+}
+
+.main-box {
+  background-color: #17391e;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* rspnsive  */
+@media (max-width: 768px) {
+  .section {
+    padding: 1rem;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 0.5rem;
+  }
+}
+
+
+/* #fecha {
+  background-color: #17391e;
+} */
+
+/* #programa {
+  background-color: #f1f2e9;
+  color: #17391e;
+} */
+
+/* #ubicacion {
+  background-color: #17391e;
+  color: #f1f2e9;
+} */
+
+/* #fotos {
+  background-color: #f1f2e9;
+} */
+/* .save-the-date {
+  color: #d2ac47;
+  text-align: center;
+  padding: 2rem;
+}
+.save-the-date h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.save-the-date h2 {
+  font-family: "Italiana", serif;
+  font-size: 2rem;
+  font-weight: lighter;
+} */
+
+/* .program-content {
+  font-size: 1.6rem;
+} */
+
+/* .location-content {
+  font-size: 1.9rem;
+} */
+
+/* rspnsive  
+@media (max-width: 768px) {
+  
+  /* .save-the-date h1 {
+    font-size: 3rem;
+  }
+  
+  .save-the-date h2 {
+    font-size: 1.5rem;
+  } */
+
+  /* .program-content {
+    font-size: 1.2rem;
+    padding: 2rem;
+  } */
+
+  /* .location-content {
+    font-size: 1.3rem;
+  } */
+
+  /* .photo-content {
+    font-size: 1.3rem;
+  }
+@media (max-width: 480px) {
+/* .save-the-date h1 {
+    font-size: 2.5rem;
+  }
+  
+  .save-the-date h2 {
+    font-size: 1.2rem;
+  } */
+ /* .program-content {
+    font-size: 1rem;
+    padding: 1.1rem;
+  } */
+
+  /* .location-content {
+    font-size: 1.1rem;
+  } */
+/* 
+  .photo-content {
+    font-size: 1.1rem;
+  } */
+
+/* .navbar {
+  font-family: "Great Vibes", cursive;
+  font-weight: 200;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  width: 100%;
+} */

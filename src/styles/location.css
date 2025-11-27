@@ -1,0 +1,48 @@
+#ubicacion {
+  background-color: #17391e;
+  color: #d2ac47;
+}
+
+.location-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.location-content {
+    font-size: 1.9rem;
+    /* new modification (below)*/
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.location-content-textbox {
+    margin-bottom: 1rem;
+}
+
+.location-title {
+    font-family: "Great Vibes", sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.location-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+
+@media (max-width: 768px) {
+.location-content {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 480px) {
+  .location-content {
+    font-size: 1.1rem;
+  }
+}
