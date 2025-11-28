@@ -5,6 +5,10 @@
   color: #d2ac47;
   text-align: center;
   padding: 2rem;
+  /*modif para poner foto*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .save-the-date h1 {
@@ -28,6 +32,47 @@
     margin-bottom: 2rem;
 }
 
+.couple-names {
+  font-family: "Great Vibes", cursive;
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: -2rem;
+}
+
+.couple-photo-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 3rem auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  border: 3px solid #d2ac47;
+  position: relative;
+}
+
+.couple-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.couple-photo:hover {
+  transform: scale(1.02);
+}
+
+.couple-photo-container::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid rgba(241, 242, 233, 0.3);
+  pointer-events: none;
+  z-index: 1;
+}
+
 .content-area {
     max-width: 800px;
 }
@@ -44,6 +89,23 @@
   .save-the-date p {
     font-size: 1rem;
   }
+
+   .couple-names {
+    font-size: 3rem;
+    /* margin-bottom: 1.5rem; */
+  }
+  
+  .couple-photo-container {
+    max-width: 400px;
+    margin-bottom: 2.5rem;
+    border-width: 2px;
+    border-radius: 15px;
+  }
+  
+  .invitacion-texto {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -53,5 +115,25 @@
   
   .save-the-date h2 {
     font-size: 1.2rem;
+  }
+
+   .couple-names {
+    font-size: 2.5rem;
+    /* margin-bottom: 1rem; */
+  }
+  
+  .couple-photo-container {
+    max-width: 300px;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+  }
+
+   .invitacion-texto {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .couple-photo-container::before {
+    display: none;
   }
 }
