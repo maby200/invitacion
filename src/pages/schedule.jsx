@@ -22,11 +22,11 @@ const Program = () => {
                                     <div className="event">Llegada de los Esposos y Ceremonia Principal</div>
                                 </div>
                                 <div className="timeline-item">
-                                    <div className="time">10:00pm</div>
+                                    <div className="time">9:00pm</div>
                                     <div className="event">Cena</div>
                                 </div>
                                 <div className="timeline-item">
-                                    <div className="time">11:30pm</div>
+                                    <div className="time">10:00pm</div>
                                     <div className="event">Fiesta con Todos los Invitados</div>
                                 </div>
                             </div>

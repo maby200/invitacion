@@ -192,6 +192,7 @@
   font-family: "Italiana", serif;
   font-size: 1.1rem;
   color: #17391e;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
