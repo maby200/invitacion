@@ -53,7 +53,7 @@ const LocationMap = () => {
                 <h3>Salón de Eventos "Luxus"</h3>
                 <p>Av. Metropolitana #1326</p>
                 <p>Urb. Las Vegas — Comas</p>
-                <a href="https://maps.app.goo.gl/KwU3Etc8BYTCuAEr5">Ver en GoogleMaps</a>
+                <a target="_blank" href="https://maps.app.goo.gl/KwU3Etc8BYTCuAEr5">Ver en Google Maps</a>
             </div>
         </div>
     );
