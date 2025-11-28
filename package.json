@@ -1,5 +1,6 @@
 {
   "name": "weddin-gpage",
+  "homepage": "https://maby200.github.io/invitacion/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,9 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "maplibre-gl": "^5.13.0",
     "maplibre-react-components": "^0.2.6",
     "react": "^19.2.0",
